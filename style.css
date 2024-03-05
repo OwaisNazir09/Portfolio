@@ -1,0 +1,374 @@
+/* Basic CSS Reset */
+body {
+    font-family: Arial, sans-serif;
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    
+    height:60px;
+    background-color:#F4ED5E;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:center; 
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Align the navbar to the top of the page */
+    width: 100%; /* Make the navbar span the entire width of the viewport */
+    border-bottom: 1px solid black;
+    z-index: 1000;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: #0f0f0f;
+    font-family:monospace;
+    margin-top: 50px;
+    font-size: 40px;    
+    padding: 15px 8px; /* Add padding to the links */
+    border-radius: 5px; /* Add some rounded corners to the links */
+    transition: background-color 0.3s; 
+    
+}
+
+
+
+li a:hover {
+    background-color: #0afafa; /* Background color for the links on hover */
+}
+
+img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height:fit-content; /* Maintain the aspect ratio of the image */
+    display: block; /* Remove any extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+#prt, #name {
+    position: absolute; /* Position absolutely within the header content */
+    transform: translate(-50%, -50%); /* Center the elements */
+    text-align: center; /* Center-align text */
+    font-family: Arial, sans-serif; /* Specify font */
+}
+
+#prt {
+    color: rgb(5, 5, 5);
+    top: 14%;
+    left: 24%;
+    font-size: 100px;
+    text-align: left;
+}
+
+#name {
+    color: rgb(5, 5, 5);
+    top: 39%;
+    left: 32%;
+    font-size: 254px;
+    border: 2px solid black;
+}
+#section1 {
+    height: 400px;
+    margin: 50px;
+    margin-bottom: 200px;
+    padding: 220px;
+    display: flex;
+    flex-direction: row;
+}
+#text
+{
+    font-size : 35px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+.upertext
+{
+    font-size: 100px;
+    margin-left: 50px;
+}
+span
+{
+    color: orangered;
+}
+#aboutimage {
+    
+    width: 500%; /* Set the width to 50% of the parent div */
+}
+
+#abtimg {
+    
+    width: 100%; /* Make sure the image fills the entire width of its container */
+}
+#section2 {
+
+    margin-top: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    font-size : 35px;
+    align-items: center;
+
+}
+#myskills
+{
+
+    font-size: 75px;
+    font-family: cursive;
+    font-stretch: expanded;
+    color: orangered;
+    font-weight: bold;
+}
+#skilldetails
+{
+    font-size: 35px;
+    padding-left: 220px;
+    padding-right: 220px;
+    align-content: center;
+    font-family: monospace;
+    color: black;
+    overflow: hidden; /* Hide any overflow text */
+}
+ 
+.skills {
+    display: flex;
+    align-items: center;
+}
+
+.skill {
+    text-align: center;
+    margin: 100px;
+}
+
+.skill img {
+    width: 100px; /* Adjust the width of the skill images as needed */
+    height: auto;
+    width: 300px;
+}
+
+.skill span {
+    display: block;
+    margin-top: 5px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.skill:hover {
+    transform: scale(1.8); 
+}
+
+
+#skl
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+
+#sec3
+{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+#outerbox
+{
+    height: 1000px;
+    width: 600px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction:column;
+    background-color: #F4ED5E;
+}
+
+#projectimg {
+    margin: 10px;
+    height: 486px;
+    width: 578px;
+    border: solid 2px black;
+
+    border-radius: 20px;
+    overflow: hidden; /* Ensure the image is clipped to the border radius */
+}
+
+#projectimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make the image cover the entire area of the img tag */
+}
+
+#projectname{
+    margin: 10px;
+    margin-top: 20px;
+    height: 70px;
+    width: 578px;
+    border: solid 2px black;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  
+}
+
+#projectnamep {
+    
+    font-size:40px;
+    font-family: cursive;
+    font-stretch: expanded;
+    color: orangered;
+    
+    font-weight: bold;
+
+}
+#projectdetail
+{   margin: 10px;
+    margin-top: 20px;
+    height: 650px;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: white;
+}
+#heyyybuddy
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin: 55PX;
+    font-size:25px;
+    font-family: cursive;
+    font-stretch: expanded;
+   
+    
+
+}
+#outerbox:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1); 
+}
+
+#section4 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+
+    height: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('2ec35d04d12c81211e494c3f0c74c7df.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#contactclass
+{
+
+margin-left: 100px;
+height: 900px;
+width: 900px;
+background-color: aqua;
+z-index: 3;
+border: solid 2px black;
+border-radius: 20px;
+background-color: rgba(78, 74, 74, 0.5);
+
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); 
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+#contactitems
+{
+    margin-left: 100px;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+#contactitems h1 { 
+    font-size: 100px;
+    font-family:cursive;
+    font-weight:bolder;
+    color: aliceblue;
+}
+#contactitems p { 
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    color: aliceblue;
+}
+#contactitems 
+{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+#contactitems li a {
+   
+    margin-top: 50px;
+    font-size: 30px; 
+    padding: 15px 8px; /* Add padding to the links */
+    border-radius: 5px; /* Add some rounded corners to the links */
+    transition: background-color 0.3s; 
+    
+}
+
+#contactitems {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #items {
+    margin-bottom: 10px;
+  }
+  
+  #items a {
+    text-decoration: none;
+    color: #333; /* Change this to your desired text color */
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+  }
+  
+  #items a img {
+    width: 80px; /* Adjust the width of the icons */
+    height: auto;
+    margin-right: 10px; /* Adjust the spacing between the icon and text */
+  }
+  
+  #items a:hover {
+    color: #f3ebeb; /* Change this to your desired color on hover */
+  }
+  
+  #items a:hover img {
+    filter: brightness(80%); /* Adjust the brightness of the icon on hover */
+  }
+  
+
