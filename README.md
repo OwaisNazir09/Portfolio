@@ -25,7 +25,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository to your local machine:
 
-
+https://github.com/OwaisNazir09/Portfolio.git
 
 
 2. Navigate to the project directory:
