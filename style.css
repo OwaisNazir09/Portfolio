@@ -79,13 +79,14 @@ img {
     border: 2px solid black;
 }
 #section1 {
-    height: 400px;
     margin: 50px;
     margin-bottom: 200px;
     padding: 220px;
     display: flex;
     flex-direction: row;
+
 }
+
 #text
 {
     font-size : 35px;
@@ -119,9 +120,11 @@ span
     margin-bottom: 20px;
     padding: 20px;
     display: flex;
-    flex-direction:column;
+    /* flex-direction:column; */
+    flex-wrap: wrap;
     font-size : 35px;
     align-items: center;
+    justify-content: center;
 
 }
 #myskills
@@ -132,6 +135,7 @@ span
     font-stretch: expanded;
     color: orangered;
     font-weight: bold;
+    
 }
 #skilldetails
 {
@@ -147,15 +151,17 @@ span
 .skills {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skill {
     text-align: center;
-    margin: 100px;
+    margin: 50px;
 }
 
 .skill img {
-    width: 100px; /* Adjust the width of the skill images as needed */
+    width: 50px; /* Adjust the width of the skill images as needed */
     height: auto;
     width: 300px;
 }
@@ -163,7 +169,7 @@ span
 .skill span {
     display: block;
     margin-top: 5px;
-    font-size: 34px;
+    font-size: 24px;
     font-weight: bold;
 }
 .skill:hover {
@@ -187,7 +193,8 @@ span
     margin-left: 70px;
     padding: 20px;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -201,6 +208,7 @@ span
     display: flex;
     flex-direction:column;
     background-color: #F4ED5E;
+    margin-bottom: 10px;
 }
 
 #projectimg {
